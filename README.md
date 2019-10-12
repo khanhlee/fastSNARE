@@ -13,10 +13,5 @@ Print vectors using FastText model:
 - *fasttext print-sentence-vectors model.bin < fasttext_file > vector_file*
 
 ### Step 4
-Use "linux_svm.py" to predict the generated file:
-- *python linux_svm.py spot.wN5.cv.csv vector_file output_file*
-
-### Step 5
-Check in *output_file* for the result:
-- '1' is SNARE
-- '0' is non-SNARE
+Use "fastsnare_train.py" to train and evaluate the generated file:
+- *python fastsnare_train.py vector_file*
