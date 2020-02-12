@@ -15,3 +15,6 @@ Print vectors using FastText model:
 ### Step 4
 Use "fastsnare_train.py" to train and evaluate the generated file:
 - *python fastsnare_train.py vector_file*
+
+## Citation
+Please cite our paper as follows: Le NQK and Huynh T-T (2019) Identifying SNAREs by Incorporating Deep Learning Architecture and Amino Acid Embedding Representation. Front. Physiol. 10:1501. doi: 10.3389/fphys.2019.01501
